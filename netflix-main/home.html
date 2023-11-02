@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Netflix</title>
+
+    <link rel="icon" href="img/Netflix-Logo.png" />
+    <link rel="stylesheet" href="./css-reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonte 'Architects Daughter' via CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
+    <!-- Fonte 'Ubuntu' via CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+</head>
+<body class="flex">
+    <aside>
+        <nav class="flex">
+            <ul class="flex">
+                <li>
+                    <img src="https://img.icons8.com/ios-glyphs/25/ffffff/search--v1.png" alt="Ícone de pesquisa" />
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/fluency-systems-regular/25/ffffff/home.png" alt="Ícone de página inicial" />
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/fluency-systems-regular/25/ffffff/2012.png" alt="Ícone de calendário" />
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/fluency-systems-regular/25/ffffff/tv.png" alt="Ícone de TV" />
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/material-outlined/25/ffffff/plus.png" alt="Ícone de adicionar" />
+                </li>
+                <li id="mode">
+                    <img src="https://img.icons8.com/material-rounded/25/ffffff/circled.png" alt="Ícone de modo escuro" id="dark-mode" />
+                    <img src="https://img.icons8.com/material-outlined/25/0000000/sun.png" alt="Ícone de modo claro" id="light-mode" />
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+
+      <!-- HEADER VEM AQUI -->
+
+        <div id="movie-info" class="flex">
+            <div id="fade"></div>
+            <section id="about-movie">
+                <h2>STRANGER <br />THINGS</h2>
+                <p>
+                    Quando um menino desaparece, uma pequena cidade descobre um mistério envolvendo experimentos secretos, forças sobrenaturais aterrorizantes e uma estranha garota.
+                </p>
+                <section id="buttons" class="flex">
+                    <button id="play" class="flex">
+                        <img src="https://img.icons8.com/material-rounded/24/000000/play--v1.png" alt="Ícone de reprodução" />Assistir
+                    </button>
+                    <button id="more-info">Mais informações</button>
+                </section>
+            </section>
+        </div>
+        <div id="categories">
+            <span id="close">ESC</span>
+            <div class="collection">
+                <h3>MINHA LISTA</h3>
+                <ul class="flex">
+                    <li>
+                        <img src="./img/MyList/Alista.jpeg" alt="A LISTA/>
+                    </li>
+                    <li>
+                      <img src="" alt="Aorigem">
+                  </li>                  
+                    <li>
+                        <img src="./img/MyList/coco.jpg" alt="Coco" />
+                    </li>
+                    <li>
+                        <img src="./img/MyList/ForestGump.jpg" alt="ForestGump" />
+                    </li>
+                    <li>
+                        <img src="./img/MyList/joker.webp" alt="Coringa" />
+                    </li>
+                    <li>
+                        <img src="./img/MyList/OpoderosoChefao.webp" alt="O poderoso chefao" />
+                    </li>
+                </ul>
+            </div>
+            <div class="collection">
+                <h3>NOVOS LANÇAMENTOS</h3>
+                <ul class="flex">
+                    <li>
+                        <img src="../netflix-main/img/LANCAMENTOS/The_Batman_poster.jpg" alt="The Batman" />
+                    </li>
+                    <li>
+                        <img src="../netflix-main/img/LANCAMENTOS/Wakanda.jpg" alt="Pantera Negra" />
+                    </li>
+                    <li>
+                        <img src="../netflix-main/img/LANCAMENTOS/Avatar.png" alt "Avatar" />
+                    </li>
+                    <li>
+                        <img src="../netflix-main/img/LANCAMENTOS/flash.jpg" alt="Flash" />
+                    </li>
+                    <li>
+                        <img src="../netflix-main/img/LANCAMENTOS/Jurrasic.jpg" alt="Jurrasic" />
+                    </li>
+                    <li>
+                        <img src="../netflix-main/img/LANCAMENTOS/matrix.jpg" alt="Matrix 4" />
+                    </li>
+                </ul>
+            </div>
+            <div class="collection">
+                <h3>POPULARES</h3>
+                <ul class="flex">
+                    <li>
+                        <img src="img/POPULARES/Underground6.jpeg" alt="Esquadrão 6" />
+                    </li>
+                    <li>
+                        <img src="img/POPULARES/ViuvaNegra.jpg" alt="Viúva Negra" />
+                    </li>
+                    <li>
+                        <img src="img/POPULARES/Rush.jpeg" alt="Rush no limite da Emoção" />
+                    </li>
+                    <li>
+                        <img src="img/POPULARES/365dias.webp" alt="Os Próximos 365 Dias" />
+                    </li>
+                    <li>
+                        <img src="img/POPULARES/Pânico_5.webp" alt="Pânico 5" />
+                    </li>
+                    <li>
+                        <img src="img/POPULARES/SexEducation.jpg" alt="Sex Education" />
+                    </li>
+                </ul>
+            </div>
+            <div class="collection">
+                <h3>TERROR</h3>
+                <ul class="flex">
+                    <li>
+                        <img src="img/TERROR/Anabelle3.jpg" alt="Annabelle 3" />
+                    </li>
+                    <li>
+                        <img src="img/TERROR/Freira.jpg" alt="A Freira" />
+                    </li>
+                    <li>
+                        <img src="img/TERROR/Chenobyl.jpg" alt="Chernobyl" />
+                    </li>
+                    <li>
+                        <img src="img/TERROR/AMorteDoDemonio.png" alt="A Morte do Demônio" />
+                    </li>
+                    <li>
+                        <img src="img/TERROR/Caso39.jpg" alt="Caso 39" />
+                    </li>
+                    <li>
+                        <img src="img/TERROR/JogosMortaisJigSaw.jpg" alt="Jogos Mortais: JigSaw" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
