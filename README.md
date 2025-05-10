@@ -1,4 +1,4 @@
-# Conteúdo do README.md para o clone da Netflix com HTML, CSS e JS ||  Clone da Netflix
+# Clone da Netflix com HTML, CSS e JS
 
 Este é um clone da página inicial da **Netflix**, desenvolvido com **HTML**, **CSS** e **JavaScript** puro, com fins educacionais.
 
