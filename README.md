@@ -79,6 +79,6 @@ readme_path_netflix.name
 
 Sempre exibir os detalhes
 
-Copiar
+
 Resultado
 'README_netflix_clone.md'
